@@ -159,6 +159,7 @@ SELECT mdate,
 FROM game
 JOIN goal
     ON game.id = goal.matchid
-GROUP BY teamid;
+GROUP BY mdate, team1, team2, teamid
+ORDER BY mdate, matchid, team1, team2;
 
 ```
