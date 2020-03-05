@@ -148,7 +148,7 @@ WHERE goal.teamid = 'GER'
 GROUP BY game.id, game.mdate;
 ```
 
-## 12. List every match with the goals scored by each team as shown. This will use "CASE WHEN" which has not been explained in any previous exercises. Sort your result by mdate, matchid, team1 and team2.
+## 13. List every match with the goals scored by each team as shown. This will use "CASE WHEN" which has not been explained in any previous exercises. Sort your result by mdate, matchid, team1 and team2.
 
 ```sql
 SELECT mdate,
@@ -161,5 +161,4 @@ JOIN goal
     ON game.id = goal.matchid
 GROUP BY mdate, team1, team2, teamid
 ORDER BY mdate, matchid, team1, team2;
-
 ```
