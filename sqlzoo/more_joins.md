@@ -15,15 +15,15 @@
 
 | id | name |
 |-|-|-|
-|20|Paul Hogan
-|50|Jeanne Tripplehorn
+|20|Paul Hogan|
+|50|Jeanne Tripplehorn|
 
 <b>Table: casting</b>
 
 | movieid | actorid | ord |
 |-|-|-|
-|10003|20|4
-|10004|50|1
+|10003|20|4|
+|10004|50|1|
 
 ### 1. List the films where the yr is 1962 [Show id, title]
 
