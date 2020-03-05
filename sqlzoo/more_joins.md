@@ -14,9 +14,9 @@
 <b>Table: actor</b>
 
 | id | name |
-|-|-|-|
-|20|Paul Hogan|
-|50|Jeanne Tripplehorn|
+|-|-|
+|20| Paul Hogan|
+|50| Jeanne Tripplehorn|
 
 <b>Table: casting</b>
 
